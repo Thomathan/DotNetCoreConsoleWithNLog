@@ -1,0 +1,14 @@
+[Unit]
+Description=dotnetcore service with nlog
+
+[Service]
+ExecStart=/usr/bin/dotnet DotNetCoreConsoleWithNLog.dll
+WorkingDirectory=/opt/someDir
+User=dotnetuser
+Group=dotnetuser
+Restart=on-failure
+SyslogIdentifier=dotnetcore-service-with-nlog
+PrivateTemp=true
+
+[Install]
+WantedBy=multi-user.target
