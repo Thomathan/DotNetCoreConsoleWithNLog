@@ -1,0 +1,66 @@
+# Compare files from git
+*.orig
+*.bak
+
+# Performance Explorer files
+*.psess
+*.vsp
+*.vspx
+*.vsps
+
+# Visual Studio
+# https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+
+bld/
+[Bb]in/
+[Oo]bj/
+
+# nuget packages
+.nuget/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+*.log
+.vs/
+.vscode/
+
+# IntelliJ/Webstorm
+.idea/
+
+# Webpack
+dist/
+
+# npm
+node_modules/
+.cache-loader
+
+# Coverage
+coverage/
+
+# vscode config files
+.vscode/
+
+# code coverage report
+[Rr]eports/
+*.coverageresults
+*.testresults
+
+# Angular-Client
+[Aa]ngular-cli.json
